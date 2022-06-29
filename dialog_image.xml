@@ -1,0 +1,15 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="16dp"
+    android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/crime_zoomed"
+            android:layout_width="359dp"
+            android:layout_height="598dp"
+            android:background="@android:color/darker_gray"
+            android:cropToPadding="true"
+            android:scaleType="centerInside"></ImageView>
+</LinearLayout>
